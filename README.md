@@ -1,4 +1,4 @@
-# AndroidOpenglSimple
+# AndroidOpenglSimple2
 
 
 ## 開発環境
