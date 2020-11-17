@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\App.hpp">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\AppDef.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\System\Common.h">
+      <Filter>Source\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\System\Types.h">
+      <Filter>Source\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\System\Graphics\FrameBuffer.hpp">
+      <Filter>Source\System\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\System\Graphics\ShaderBase.hpp">
+      <Filter>Source\System\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\System\Graphics\ShaderBlend.hpp">
+      <Filter>Source\System\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\System\Graphics\Sprite.hpp">
+      <Filter>Source\System\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\System\Graphics\Texture.hpp">
+      <Filter>Source\System\Graphics</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{d8b60267-2943-43f8-b1c3-63b1e3f7a2d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\System">
+      <UniqueIdentifier>{63a04c22-21d4-436c-b8b0-3b8d8df0d226}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\System\Graphics">
+      <UniqueIdentifier>{8b46273a-3564-42ff-9bbd-54d33363f443}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Src\App.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\System\Graphics\FrameBuffer.cpp">
+      <Filter>Source\System\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\System\Graphics\NativeLibrary.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\System\Graphics\ShaderBase.cpp">
+      <Filter>Source\System\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\System\Graphics\ShaderBlend.cpp">
+      <Filter>Source\System\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\System\Graphics\Sprite.cpp">
+      <Filter>Source\System\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\System\Graphics\Texture.cpp">
+      <Filter>Source\System\Graphics</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>
